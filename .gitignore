@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+build/
+
+# Environment files (may contain secrets)
+.env
+.env.local
+
+# IDE/Editor
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Project specific
+backend/output/
+backend/uploads/
+nul
+
+# Claude Code local cache
+.claude/

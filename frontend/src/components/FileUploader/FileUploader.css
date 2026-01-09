@@ -1,0 +1,89 @@
+.file-uploader {
+  margin-bottom: 24px;
+}
+
+.dropzone {
+  border: 2px dashed #d1d5db;
+  border-radius: 12px;
+  padding: 40px 20px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background: #fafafa;
+}
+
+.dropzone:hover {
+  border-color: #667eea;
+  background: #f5f3ff;
+}
+
+.dropzone.active {
+  border-color: #667eea;
+  background: #ede9fe;
+  border-style: solid;
+}
+
+.dropzone.has-file {
+  border-color: #22c55e;
+  background: #f0fdf4;
+  border-style: solid;
+}
+
+.upload-icon {
+  width: 64px;
+  height: 64px;
+  margin: 0 auto 16px;
+  color: #9ca3af;
+}
+
+.dropzone:hover .upload-icon,
+.dropzone.active .upload-icon {
+  color: #667eea;
+}
+
+.upload-text {
+  font-size: 1.1rem;
+  color: #4b5563;
+  margin-bottom: 8px;
+}
+
+.file-hint {
+  font-size: 0.85rem;
+  color: #9ca3af;
+}
+
+.file-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.file-icon {
+  width: 48px;
+  height: 48px;
+  margin-bottom: 12px;
+  color: #22c55e;
+}
+
+.file-name {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #1f2937;
+  margin-bottom: 4px;
+  word-break: break-all;
+}
+
+.file-size {
+  font-size: 0.9rem;
+  color: #6b7280;
+  margin-bottom: 8px;
+}
+
+.rejection-message {
+  background: #fee2e2;
+  color: #dc2626;
+  padding: 12px 16px;
+  border-radius: 8px;
+  margin-top: 12px;
+  font-size: 0.9rem;
+}
